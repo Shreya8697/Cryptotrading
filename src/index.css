@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #111;
+  --blue: #3a80e9;
+  --gray: #888;
+  --darkgrey: #1b1b1b;
+  --green: #61c96f;
+  --red: #f94141;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--black);
+  color: var(--white);
+  font-family: "Inter", serif;
+}
+
+/* selection css code when ever user select anything from the webpage than the selceted item or font andits background color we set here */
+::selection {
+    background-color:#79a8d469 ;
+    color: var(--black);
+}
+
+/*custom scroll bar*/
+/* width */
+::-webkit-scrollbar {
+    width: 0.3rem;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--black);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--blue);
+    border-radius: 3rem;
+  }
+
+  a{
+    color: var(--white)!important;
+    text-decoration: none !important;
+  }
+
+/* use for the user can not drag and open it any tab */
+  img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+  }
+
+  .grey-wrapper{
+    width: 90%;
+    display: block;
+    padding: 1rem 1rem;
+    background-color: var(--darkgrey);
+    margin:auto 1.5rem;
+    border-radius:0rem 0.8rem;
+  }
+  .coins-day-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;margin: 1.5rem;
+  }

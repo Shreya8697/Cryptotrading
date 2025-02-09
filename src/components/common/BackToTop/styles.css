@@ -1,0 +1,39 @@
+.back-to-top-btn {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid var(--blue);
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.back-to-top-btn:hover {
+    transform: scale(1.1);
+    background-color: var(--black);
+    border: 2px solid var(--blue);
+    box-shadow: 0 0 15px var(--blue), 0 0 30px var(--blue);
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+    .back-to-top-btn {
+        bottom: 1rem;
+        right: 1rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 1rem;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); /* Slightly smaller shadow */
+    }
+
+    .back-to-top-btn:hover {
+        box-shadow: 0 0 12px var(--blue), 0 0 24px var(--blue); /* Slightly smaller glow */
+    }
+}
