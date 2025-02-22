@@ -69,5 +69,6 @@ function SelectCoins({crypto1,crypto2,setCrypto1,setCrypto2}) {
     </div>
   );
 }
+//nothing
 
 export default SelectCoins;
