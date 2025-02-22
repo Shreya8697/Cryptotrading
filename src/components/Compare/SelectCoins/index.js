@@ -69,7 +69,7 @@ function SelectCoins({crypto1,crypto2,setCrypto1,setCrypto2}) {
     </div>
   );
 }
-//nothing
+//nothing just editing
 //start it now
 //lots od things is remain
 
