@@ -71,5 +71,6 @@ function SelectCoins({crypto1,crypto2,setCrypto1,setCrypto2}) {
 }
 //nothing
 //start it now
+//lots od things is remain
 
 export default SelectCoins;
